@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login form</title>
+</head>
+<body>
+  
+  
+  <form action="Login.php" method="POST">
+    <div class="form">
+        <div class="tab-header">
+          <div class="active">Sign Up</div>
+          <div>Sign In</div>
+        </div>
+        <div class="tab-content">
+          <div class="tab-body active">
+            <div class="form-element">
+              <input type="email" placeholder="Email" name="email" required>
+            </div>
+            <div class="form-element">
+              <input type="text" placeholder="Username" name="username">
+            </div>
+            <div class="form-element">
+              <input type="password" placeholder="Password" name="password"> 
+            </div>
+            <div class="form-element">
+              <button type="submit" name="submit" value="submit">Sign Up</button>
+            </div>
+          </div>
+  
+          
+          <div class="tab-body">
+            <div class="form-element">
+              <input type="text" placeholder="Email / Username">
+            </div>
+            <div class="form-element">
+              <input type="password" placeholder="Password">
+            </div>
+            <div class="form-element">
+              <input type="checkbox" id="remember_me">
+              <label for="remember_me">Remember me</label>
+            </div>
+            <div class="form-element">
+              <button>Sign In</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+      <script src="./js/s.js"></script>
+</body>
+</html>
+
